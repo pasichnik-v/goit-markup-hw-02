@@ -129,8 +129,7 @@ background-color: var(--background-hero-footer);
 .hero-button {
     background-color: var(--background-hero-button);
     color: var(--full-white-color);
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -156,7 +155,7 @@ visibility: hidden;
 }
 .features-text {
     color: var(--secondary-text-color);
-    font-weight: 400;
+
     line-height: 1.71;
 }
 
@@ -188,7 +187,6 @@ visibility: hidden;
 
 .team-text {
 color: var(--secondary-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 }
@@ -203,13 +201,13 @@ line-height: 1.19;
     text-decoration: none;
     font-style: normal;
     color: var(--full-white-color);
-    font-weight: 400;
+
     line-height: 1.71;
 }
 .footer-contact {
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
+
     line-height: 1.71;
     color: var(--partial-white-color)
 }
@@ -226,7 +224,7 @@ line-height: 1.19;
 /* Портфоліо */
 
 .filters .filter {
-    font-family: Roboto, sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -257,7 +255,7 @@ line-height: 1.19;
 }
 .project-text {
     color: var(--secondary-text-color);
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.88;
     
