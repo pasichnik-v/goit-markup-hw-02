@@ -147,12 +147,14 @@ background-color: var(--background-hero-footer);
 .features-title {
 visibility: hidden;
 }
+
 .features-head {
-    color: var(--primary-text-color);
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1.14;
     text-transform: uppercase;
+    line-height: 1.14;
 }
+
 .features-text {
     color: var(--secondary-text-color);
 
